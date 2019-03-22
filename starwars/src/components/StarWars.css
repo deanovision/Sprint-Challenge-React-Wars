@@ -1,0 +1,8 @@
+#character-container {
+  margin: 0 auto;
+  background: lightslategray;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}

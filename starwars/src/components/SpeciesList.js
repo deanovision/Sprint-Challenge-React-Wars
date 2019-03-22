@@ -31,7 +31,7 @@ class SpeciesList extends React.Component {
   render() {
     return (
       <div>
-        <Species speciesProps={this.state.species} />
+        <Species id="species" speciesProps={this.state.species} />
       </div>
     );
   }

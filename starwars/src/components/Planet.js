@@ -2,7 +2,7 @@ import React from "react";
 import "./StarWars.css";
 const Planet = props => {
   return (
-    <div className="planet-info">
+    <div id="planet" className="planet-info">
       <h4>Home Planet Info</h4>
       <p>Planet Name: {props.homeworldProps.name}</p>
       <p>Planet Climate: {props.homeworldProps.climate}</p>

@@ -1,8 +1,28 @@
+* {
+  box-sizing: border-box;
+}
 #character-container {
+  width: 800px;
   margin: 0 auto;
-  background: lightslategray;
-  width: 400px;
+}
+
+#char {
   display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
+  justify-content: space-between;
+  background: rgb(118, 157, 196);
+  text-align: left;
+  padding: 10px;
+  margin: 10px 0px;
+  width: 100%;
+  border-radius: 20px;
+}
+#character-info {
+  width: 30%;
+}
+#planet {
+  text-align: left;
+  width: 30%;
+}
+#species {
+  width: 30%;
 }
